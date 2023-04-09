@@ -1,3 +1,50 @@
-body{
+body {
+    background-color: #020202 !important;
+    height: 500vh;
+    font-family: "Helvetica";
+}
+
+header {
+    height: auto;
+    width: 100%;
+}
+
+.header-nav div div a div {
+    width: 24px;
+    height: 2.5px;
+    background-color: white;
+    margin: 6px 0;
+    border-radius: 10px 10px;
+}
+
+.header-nav {
+    display: grid;
+    grid-template-columns: auto auto;
     background-color: #020202;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+    padding: 12px 4rem;
+    border-bottom: 0.1px solid white;
+}
+
+.logo-img {
+    height: 55px;
+    width: 55px;
+}
+
+.hamb-icon {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.logo {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.profile-logo {
+    grid-column: 3;
+    grid-row: 3;
 }
