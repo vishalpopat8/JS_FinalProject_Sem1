@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -25,12 +26,17 @@
                     </a>
                 </div>
             </div>
+            
             <a href="#" class="logo"><img src="Images/logo.svg" alt="Rockstar Logo" class="logo-img" /></a>
             <div class="d-flex justify-content-end profile-logo align-items-center">
                 <div>
                     <a href="#"><img src="Images/profile.svg" alt="profile logo" /></a>
                 </div>
+                <div class="hide">
+                    <div><a>Sign In</a><a>Join Social Club</a></div>
+                </div>
             </div>
+
         </div>
     </header>
     <main class="mt-80">
@@ -172,17 +178,85 @@
                         </div>
                     </a>
                 </div>
-                <a href="#" class="newswire-viewmore">View More</a>
+                <a href="#" class="viewmore">View More</a>
             </section>
-            <section>
+            <section class="d-flex flex-column justify-content-center">
+                <h2 class="mb-4"><a href="#">Featured Games</a></h2>
+                <div class="d-grid featured-games">
+                    <a href="#" class="d-flex flex-column rounded-1">
+                        <div class="newswire-img w-100 rounded-1">
+                            <img class="w-100 rounded-1" src="Images/featured_games1.jpg" alt="featured_games1">
+                        </div>
 
+                    </a>
+                    <a href="#" class="d-flex flex-column rounded-1">
+                        <div class="newswire-img w-100 rounded-1">
+                            <img class="w-100 rounded-1" src="Images/featured_games2.jpg" alt="featured_games2">
+                        </div>
+
+                    </a>
+                    <a href="#" class="d-flex flex-column rounded-1">
+                        <div class="newswire-img w-100 rounded-1">
+                            <img class="w-100 rounded-1" src="Images/featured_games3.jpg" alt="featured_games3">
+                        </div>
+
+                    </a>
+                    <a href="#" class="d-flex flex-column rounded-1">
+                        <div class="newswire-img w-100 rounded-1">
+                            <img class="w-100 rounded-1" src="Images/featured_games4.jpg" alt="featured_games4">
+                        </div>
+
+                    </a>
+                </div>
+                <a href="#" class="viewmore">View More</a>
             </section>
         </div>
     </main>
+    <footer class="d-flex">
+        <div class="footer-first">
+            <div class="position-relative">
+                <button class="footer-lang">
+                    <i></i>
+                    <span>English</span>
+                </button>
+            </div>
+        </div>
+        <div class="d-flex justify-content-start footer-contact">
+            <a href="">Contact</a>
+            <a href="">Careers</a>
+            <a href="">Subscribe</a>
+        </div>
+        <div class="d-flex justify-content-start footer-privacy">
+            <a href="#">Corporate</a>
+            <a href="#">Privacy</a>
+            <a href="#">Cookie Settings</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Legal</a>
+            <a href="#">Do Not Sell My Personal Information</a>
+        </div>
+        <div class="d-flex justify-content-end footer-socials">
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>
+        <section class="d-grid footer-section">
+            <div>Rockstar Games</div>
+            <div class="d-grid">
+                <span>New York</span>
+                <span>London</span>
+                <span>Paris</span>
+                <span>Bogota</span>
+            </div>
+            <div>MCMXCVIII</div>
+        </section>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
         integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script src="JS/script.js"></script>
 </body>
 

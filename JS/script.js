@@ -36,3 +36,8 @@ $(document).ready(() => {
         }
     );
 });
+
+// profile icon tooltip widget
+$(document).ready(() => {
+    
+});
