@@ -1,7 +1,9 @@
+@import url(http://db.onlinewebfonts.com/c/04e6981992c0e2e7642af2074ebe3901?family=Helvetica+Now+Display);
+
 body {
     background-color: #020202 !important;
-    height: 500vh;
-    font-family: "Helvetica";
+    font-family: "Helvetica Now Display" !important;
+    color: white;
 }
 
 header {
@@ -26,7 +28,8 @@ header {
     width: 100%;
     transition: top 0.3s;
     padding: 12px 4rem;
-    border-bottom: 0.1px solid white;
+    border-bottom: 1px solid #282828;
+    z-index: 9999;
 }
 
 .logo-img {
@@ -47,5 +50,175 @@ header {
 .profile-logo {
     grid-column: 3;
     grid-row: 3;
-    
+}
+
+main {
+    margin-top: 80px;
+}
+
+.carousel-cell {
+    display: grid !important;
+    grid-template-columns: 70% 1fr;
+}
+
+.carousel-cell img {
+    width: 100%;
+    height: auto;
+}
+
+.cell-content {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.cell-content div:first-child {
+    grid-gap: 2rem;
+}
+
+.cell-content button {
+    align-self: center;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 0.25rem;
+    color: inherit;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    transition: all .2s ease;
+    font-size: 120%;
+}
+
+
+.slide-content {
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.cell-title {
+    grid-gap: 0.5rem !important;
+    font-weight: 700;
+}
+
+.cell-title h2 {
+    font-size: 2.5rem;
+
+    line-height: 1.1;
+    letter-spacing: -.025em;
+}
+
+.slider-dot {
+    background: hsla(0, 0%, 100%, .4);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 4px;
+    max-width: 4rem;
+    outline: none;
+    padding: 0;
+    transition: background .3s;
+    width: 100%;
+}
+
+.slick-active .slider-dot {
+    background: white !important;
+}
+
+.slick-dots li {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.slick-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.newswire h1 {
+    color: #fff;
+}
+
+.newswire {
+    margin-top: 50px;
+    grid-gap: 8rem;
+}
+
+.newswire a {
+    text-decoration: none;
+    color: white;
+}
+
+.newswire-tile {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.newswire-tile a {
+    grid-column: span 2;
+    border: 1px solid #282828;
+}
+
+.newswire-content {
+    padding: 2rem 1.5rem;
+    grid-gap: 0.5rem;
+}
+
+.newswire-content-title time {
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: .65;
+}
+
+.newswire-content h5 {
+    font-size: 1.6rem !important;
+}
+
+.newswire-viewmore {
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    line-height: unset;
+    outline: none;
+    padding: 0;
+    position: relative;
+    text-transform: none;
+    z-index: 1;
+    align-self: center;
+    font-size: large;
+    transition: all .2s ease;
+
+}
+
+.newswire-viewmore:before {
+    background: #fcaf17;
+    height: 4px !important;
+    border-radius: 0.25rem;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: -0.1rem;
+    position: absolute;
+    transition: all .2s ease;
+    width: calc(100% + 0.2rem);
+    z-index: -1;
+
+}
+
+.newswire-viewmore:hover {
+    color: #161616;
+    background: #fcaf17;
+    border-color: #fcaf17;
+}
+
+.newswire-viewmore:hover:before {
+    height: 100%;
+    left: -0.5rem;
+
+    width: calc(100% + 1rem);
 }
