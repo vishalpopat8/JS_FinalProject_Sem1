@@ -41,16 +41,16 @@ $(document).ready(() => {
 
 // sidebar toggle
 $(document).ready(() => {
-  $(".hamb-icon").click(() => {
+  $(".hamb-bars").click(() => {
     if ($("main section,footer").css("opacity") == 1) {
       $("main section,footer").animate({ opacity: "0.5" });
     } else {
       $("main section,footer").animate({ opacity: "1" });
     }
-    $("#sidebar").toggle("slide", () => {});
+    $("#sidebar").toggle("slide");
 
-    $(".hamb-bars div:first-child").animate({ opacity: "toggle" }, 30);
-    $(".hamb-bars div:last-child").animate({ opacity: "toggle" }, 30);
+    $(".hamb-bars div:first-child").animate({ opacity: "toggle" }, 300);
+    $(".hamb-bars div:last-child").animate({ opacity: "toggle" }, 300);
   });
 });
 
@@ -60,3 +60,4 @@ $(document).ready(() => {
     $("nav").fadeToggle("fast");
   });
 });
+

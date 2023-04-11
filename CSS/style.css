@@ -606,3 +606,15 @@ footer {
 .hide {
     display: none;
 }
+
+/* games page */
+.hamb{
+    text-decoration: none;
+    color: #e8e8e8;
+    font-size: 1.3rem;
+    margin-left: 20px;
+}
+
+.games-list{
+    
+}
