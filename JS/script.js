@@ -61,3 +61,24 @@ $(document).ready(() => {
   });
 });
 
+// games image hover
+$(document).ready(() => {
+  $(".games-list a div").mousemove(function (event) {
+
+    //Both the x and y value are calculated by taking the mouse x,y position on the page and subtracting it from the x,y position of the image on the page.
+    var mousex = event.pageX - $(this).offset().left;
+    var mousey = event.pageY - $(this).offset().top;
+
+    //The 40 controls the amount of movement that will happen by giving us a smaller number.
+    var imgx = (mousex - 300) / 40;
+    var imgy = (mousey - 200) / 40;
+
+    //Adds a translation css styles to the image element
+    $(this).css("transform", "translate(" + imgx + "px," + imgy + "px)");
+  });
+
+  //This function will fire every time the user mouses off of the image. It resets the translation back to 0.
+  $(".games-list a div").mouseout(function () {
+    $(this).css("transform", "translate(0px,0px)");
+  });
+});

@@ -616,5 +616,163 @@ footer {
 }
 
 .games-list{
-    
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 4rem 4rem;
+    width: 100%;
+    color: #e8e8e8;
+}
+.games-list a{
+    display: flex;
+    flex-flow: column;
+}
+.games-list a div{
+    animation-play-state: running;
+    animation: globalFadeInUp .75s;
+    --image-rounding-dynamic: 8px;
+    --aspect-ratio: 64/79;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    border-radius: 8px;
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+.games-list a div::before{
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: calc(100% / calc(64/79));
+}
+
+.game1{
+    background-image: url(../Images/game1.jpg);
+}
+.game2{
+    background-image: url(../Images/game2.jpg);
+}
+.game3{
+    background-image: url(../Images/game3.jpg);
+}
+.game4{
+    background-image: url(../Images/game4.jpg);
+}
+.game5{
+    background-image: url(../Images/game5.jpg);
+}
+.game6{
+    background-image: url(../Images/game6.jpg);
+}
+.game7{
+    background-image: url(../Images/game7.jpg);
+}
+.game8{
+    background-image: url(../Images/game8.jpg);
+}
+.game9{
+    background-image: url(../Images/game9.jpg);
+}
+.game10{
+    background-image: url(../Images/game10.jpg);
+}
+.game11{
+    background-image: url(../Images/game11.jpg);
+}
+.game12{
+    background-image: url(../Images/game12.jpg);
+}
+.game13{
+    background-image: url(../Images/game13.jpg);
+}
+.game14{
+    background-image: url(../Images/game14.jpg);
+}
+.game15{
+    background-image: url(../Images/game15.jpg);
+}
+.game16{
+    background-image: url(../Images/game16.jpg);
+}
+.game17{
+    background-image: url(../Images/game17.jpg);
+}
+.game18{
+    background-image: url(../Images/game18.jpg);
+}
+.game19{
+    background-image: url(../Images/game19.jpg);
+}
+.game20{
+    background-image: url(../Images/game20.jpg);
+}
+.game21{
+    background-image: url(../Images/game21.jpg);
+}
+.game22{
+    background-image: url(../Images/game22.jpg);
+}
+.game23{
+    background-image: url(../Images/game23.jpg);
+}
+.game24{
+    background-image: url(../Images/game24.jpg);
+}
+.game25{
+    background-image: url(../Images/game25.jpg);
+}
+.game26{
+    background-image: url(../Images/game26.jpg);
+}
+.game27{
+    background-image: url(../Images/game27.jpg);
+}
+.game28{
+    background-image: url(../Images/game28.jpg);
+}
+.game29{
+    background-image: url(../Images/game29.jpg);
+}
+.game30{
+    background-image: url(../Images/game30.jpg);
+}
+.game31{
+    background-image: url(../Images/game31.jpg);
+}
+.game32{
+    background-image: url(../Images/game32.jpg);
+}
+.game33{
+    background-image: url(../Images/game33.jpg);
+}
+.game34{
+    background-image: url(../Images/game34.jpg);
+}
+.game35{
+    background-image: url(../Images/game35.jpg);
+}
+.game36{
+    background-image: url(../Images/game36.jpg);
+}
+.game37{
+    background-image: url(../Images/game37.jpg);
+}
+.game38{
+    background-image: url(../Images/game38.jpg);
+}
+.game39{
+    background-image: url(../Images/game39.jpg);
+}
+.game40{
+    background-image: url(../Images/game40.jpg);
+}
+.game41{
+    background-image: url(../Images/game41.jpg);
+}
+.game42{
+    background-image: url(../Images/game42.jpg);
 }
