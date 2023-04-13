@@ -43,9 +43,9 @@ $(document).ready(() => {
 $(document).ready(() => {
   $(".hamb-bars").click(() => {
     if ($("main section,footer").css("opacity") == 1) {
-      $("main section,footer").animate({ opacity: "0.5" });
+      $("main section,footer,.games-list").animate({ opacity: "0.5" });
     } else {
-      $("main section,footer").animate({ opacity: "1" });
+      $("main section,footer,.games-list").animate({ opacity: "1" });
     }
     $("#sidebar").toggle("slide");
 

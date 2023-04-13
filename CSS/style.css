@@ -96,7 +96,8 @@ header {
     font-size: 2rem;
     font-weight: 700;
 }
-.side-content a:hover{
+
+.side-content a:hover {
     color: #fcaf17;
 }
 
@@ -149,6 +150,10 @@ header {
     grid-row: 3;
 }
 
+.hamb-bars {
+    cursor: pointer;
+}
+
 .logo {
     grid-column: 2;
     grid-row: 3;
@@ -159,7 +164,7 @@ header {
     grid-row: 3;
 }
 
-nav{
+nav {
     display: flex;
     border-radius: 8px;
     flex-direction: column;
@@ -171,25 +176,27 @@ nav{
     top: 90px;
     right: 60px;
 }
-nav div:first-child{
+
+nav div:first-child {
     border-radius: 0 0 8px 8px;
 }
+
 nav div:first-child a:first-child,
-nav div:first-child a:last-child
-{
+nav div:first-child a:last-child {
     border-bottom: 1px solid #2d2d2d;
     color: #e8e8e8;
     text-decoration: none;
     background-color: #121212;
     font-size: 1rem;
-    font-weight:400;
+    font-weight: 400;
     letter-spacing: 0;
     line-height: 1.6;
     padding: 1rem;
     position: relative;
     transition: all .3s ease-in-out;
 }
-nav div:first-child a:first-child::before{
+
+nav div:first-child a:first-child::before {
     align-self: center;
     background: url(../Images/subscribe.svg) 100%/contain no-repeat;
     content: "";
@@ -198,11 +205,12 @@ nav div:first-child a:first-child::before{
     order: 3;
     width: 1rem;
     font-size: 0.75rem;
-    font-weight:400;
+    font-weight: 400;
     letter-spacing: 0;
     line-height: 1.6;
 }
-nav div:first-child a:last-child::before{
+
+nav div:first-child a:last-child::before {
     align-self: center;
     background: url(../Images/subscribe.svg) 100%/contain no-repeat;
     content: "";
@@ -211,12 +219,13 @@ nav div:first-child a:last-child::before{
     order: 3;
     width: 1rem;
     font-size: 0.75rem;
-    font-weight:400;
+    font-weight: 400;
     letter-spacing: 0;
     line-height: 1.6;
 }
-nav div:first-child a:hover{
-    background-color: hsla(0,0%,100%,.15);
+
+nav div:first-child a:hover {
+    background-color: hsla(0, 0%, 100%, .15);
 }
 
 main {
@@ -232,6 +241,7 @@ main {
     grid-template-columns: 70% 1fr;
     cursor: grab;
 }
+
 .carousel-cell:active {
     cursor: grabbing;
 }
@@ -608,28 +618,30 @@ footer {
 }
 
 /* games page */
-.hamb{
+.hamb {
     text-decoration: none;
     color: #e8e8e8;
     font-size: 1.3rem;
     margin-left: 20px;
 }
 
-.games-list{
+.games-list {
     grid-row-gap: 1.5rem;
     grid-column-gap: 1.5rem;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: 0 auto;
     max-width: 1920px;
     padding: 4rem 4rem;
     width: 100%;
     color: #e8e8e8;
 }
-.games-list a{
+
+.games-list a {
     display: flex;
     flex-flow: column;
 }
-.games-list a div{
+
+.games-list a div {
     animation-play-state: running;
     animation: globalFadeInUp .75s;
     --image-rounding-dynamic: 8px;
@@ -643,136 +655,178 @@ footer {
     position: relative;
     width: 100%;
 }
-.games-list a div::before{
+
+.games-list a div::before {
     content: "";
     display: block;
     height: 0;
     padding-bottom: calc(100% / calc(64/79));
 }
 
-.game1{
+.game1 {
     background-image: url(../Images/game1.jpg);
 }
-.game2{
+
+.game2 {
     background-image: url(../Images/game2.jpg);
 }
-.game3{
+
+.game3 {
     background-image: url(../Images/game3.jpg);
 }
-.game4{
+
+.game4 {
     background-image: url(../Images/game4.jpg);
 }
-.game5{
+
+.game5 {
     background-image: url(../Images/game5.jpg);
 }
-.game6{
+
+.game6 {
     background-image: url(../Images/game6.jpg);
 }
-.game7{
+
+.game7 {
     background-image: url(../Images/game7.jpg);
 }
-.game8{
+
+.game8 {
     background-image: url(../Images/game8.jpg);
 }
-.game9{
+
+.game9 {
     background-image: url(../Images/game9.jpg);
 }
-.game10{
+
+.game10 {
     background-image: url(../Images/game10.jpg);
 }
-.game11{
+
+.game11 {
     background-image: url(../Images/game11.jpg);
 }
-.game12{
+
+.game12 {
     background-image: url(../Images/game12.jpg);
 }
-.game13{
+
+.game13 {
     background-image: url(../Images/game13.jpg);
 }
-.game14{
+
+.game14 {
     background-image: url(../Images/game14.jpg);
 }
-.game15{
+
+.game15 {
     background-image: url(../Images/game15.jpg);
 }
-.game16{
+
+.game16 {
     background-image: url(../Images/game16.jpg);
 }
-.game17{
+
+.game17 {
     background-image: url(../Images/game17.jpg);
 }
-.game18{
+
+.game18 {
     background-image: url(../Images/game18.jpg);
 }
-.game19{
+
+.game19 {
     background-image: url(../Images/game19.jpg);
 }
-.game20{
+
+.game20 {
     background-image: url(../Images/game20.jpg);
 }
-.game21{
+
+.game21 {
     background-image: url(../Images/game21.jpg);
 }
-.game22{
+
+.game22 {
     background-image: url(../Images/game22.jpg);
 }
-.game23{
+
+.game23 {
     background-image: url(../Images/game23.jpg);
 }
-.game24{
+
+.game24 {
     background-image: url(../Images/game24.jpg);
 }
-.game25{
+
+.game25 {
     background-image: url(../Images/game25.jpg);
 }
-.game26{
+
+.game26 {
     background-image: url(../Images/game26.jpg);
 }
-.game27{
+
+.game27 {
     background-image: url(../Images/game27.jpg);
 }
-.game28{
+
+.game28 {
     background-image: url(../Images/game28.jpg);
 }
-.game29{
+
+.game29 {
     background-image: url(../Images/game29.jpg);
 }
-.game30{
+
+.game30 {
     background-image: url(../Images/game30.jpg);
 }
-.game31{
+
+.game31 {
     background-image: url(../Images/game31.jpg);
 }
-.game32{
+
+.game32 {
     background-image: url(../Images/game32.jpg);
 }
-.game33{
+
+.game33 {
     background-image: url(../Images/game33.jpg);
 }
-.game34{
+
+.game34 {
     background-image: url(../Images/game34.jpg);
 }
-.game35{
+
+.game35 {
     background-image: url(../Images/game35.jpg);
 }
-.game36{
+
+.game36 {
     background-image: url(../Images/game36.jpg);
 }
-.game37{
+
+.game37 {
     background-image: url(../Images/game37.jpg);
 }
-.game38{
+
+.game38 {
     background-image: url(../Images/game38.jpg);
 }
-.game39{
+
+.game39 {
     background-image: url(../Images/game39.jpg);
 }
-.game40{
+
+.game40 {
     background-image: url(../Images/game40.jpg);
 }
-.game41{
+
+.game41 {
     background-image: url(../Images/game41.jpg);
 }
-.game42{
+
+.game42 {
     background-image: url(../Images/game42.jpg);
 }
