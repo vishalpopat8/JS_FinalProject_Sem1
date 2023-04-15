@@ -38,6 +38,8 @@ header {
     width: 100%;
 }
 
+
+
 .side-search form {
     min-width: 20rem;
     background: #111;
@@ -162,6 +164,10 @@ header {
 .profile-logo {
     grid-column: 3;
     grid-row: 3;
+}
+
+.profile-logo div:first-child {
+    cursor: pointer;
 }
 
 nav {

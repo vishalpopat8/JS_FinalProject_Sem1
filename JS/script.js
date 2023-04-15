@@ -3,7 +3,10 @@ $(document).ready(() => {
   let prevScrollpos = $(window).scrollTop();
   $(window).scroll(() => {
     var currentScrollPos = $(window).scrollTop();
-    if ($("main section,footer").css("opacity") == 1) {
+    if (
+      $("main section,footer").css("opacity") == 1 &&
+      $("nav").css("display") == "none"
+    ) {
       if (prevScrollpos > currentScrollPos) {
         $(".header-nav").css("top", "0");
       } else {
@@ -54,7 +57,19 @@ $(document).ready(() => {
   });
 });
 
-// sidebar toggle
+// current page link css
+$(document).ready(() => {
+  $(".side-content")
+  .find("a")
+  .each(function () {
+    let currentPage = $(this).attr("href");
+    if (currentPage == location.pathname.split("/").slice(-1)[0]) {
+      $(this).css("color", "#fcaf17");
+    }
+  });
+});
+
+// profile toggle
 $(document).ready(() => {
   $(".profile-logo a:first-child").click(() => {
     $("nav").fadeToggle("fast");
@@ -64,7 +79,6 @@ $(document).ready(() => {
 // games image hover
 $(document).ready(() => {
   $(".games-list a div").mousemove(function (event) {
-
     //Both the x and y value are calculated by taking the mouse x,y position on the page and subtracting it from the x,y position of the image on the page.
     var mousex = event.pageX - $(this).offset().left;
     var mousey = event.pageY - $(this).offset().top;
@@ -82,3 +96,4 @@ $(document).ready(() => {
     $(this).css("transform", "translate(0px,0px)");
   });
 });
+
