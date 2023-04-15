@@ -21,7 +21,7 @@ $(document).ready(() => {
 $(".main-carousel").slick({
 	arrows: false,
 	dots: true,
-	customPaging: function (slider, i) {
+	customPaging: function () {
 		return '<button class="slider-dot"></button>';
 	},
 });
