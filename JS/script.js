@@ -50,11 +50,18 @@ $(document).ready(() => {
 		} else {
 			$("main section,footer,.games-list").animate({ opacity: "1" });
 		}
-		$("#sidebar").toggle("slide");
+		$("#sidebar").toggle("slide", () => {
+			if ($("#sidebar").css("display") == "block") {
+				$("main section,footer,.games-list").css("pointer-events", "none");
+			} else {
+				$("main section,footer,.games-list").css("pointer-events", "unset");
+			}
+		});
 
 		$(".hamb-bars div:first-child").animate({ opacity: "toggle" }, 300);
 		$(".hamb-bars div:last-child").animate({ opacity: "toggle" }, 300);
 	});
+
 });
 
 // current page link css
