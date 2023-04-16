@@ -24,12 +24,11 @@ $(".videos-reddead-content").slick({
 	slidesToShow: 3,
 	slidesToScroll: 3,
 	swipe: false,
-	prevArrow: $('.videos-reddead .left-arrow'),
-	nextArrow: $('.videos-reddead .right-arrow'),
-
+	prevArrow: $(".videos-reddead .left-arrow"),
+	nextArrow: $(".videos-reddead .right-arrow"),
 });
 $(document).ready(function () {
-	$('.videos-reddead-content').on('init', function (event, slick) {
+	$(".videos-reddead-content").on("init", function (event, slick) {
 		// Get the previous and next arrow buttons
 		var prevArrow = $(slick.$prevArrow);
 		var nextArrow = $(slick.$nextArrow);
@@ -37,8 +36,8 @@ $(document).ready(function () {
 		// Check if there are no previous or next slides
 		if (slick.slideCount <= slick.options.slidesToShow) {
 			// If there are no previous or next slides
-			prevArrow.addClass('slick-disabled');
-			nextArrow.addClass('slick-disabled');
+			prevArrow.addClass("slick-disabled");
+			nextArrow.addClass("slick-disabled");
 		}
 	});
 });
@@ -50,12 +49,11 @@ $(".videos-gtaonline-content").slick({
 	slidesToShow: 3,
 	slidesToScroll: 3,
 	swipe: false,
-	prevArrow: $('.videos-gtaonline .left-arrow'),
-	nextArrow: $('.videos-gtaonline .right-arrow'),
-
+	prevArrow: $(".videos-gtaonline .left-arrow"),
+	nextArrow: $(".videos-gtaonline .right-arrow"),
 });
 $(document).ready(function () {
-	$('.videos-gtaonline-content').on('init', function (event, slick) {
+	$(".videos-gtaonline-content").on("init", function (event, slick) {
 		// Get the previous and next arrow buttons
 		var prevArrow = $(slick.$prevArrow);
 		var nextArrow = $(slick.$nextArrow);
@@ -63,8 +61,8 @@ $(document).ready(function () {
 		// Check if there are no previous or next slides
 		if (slick.slideCount <= slick.options.slidesToShow) {
 			// If there are no previous or next slides
-			prevArrow.addClass('slick-disabled');
-			nextArrow.addClass('slick-disabled');
+			prevArrow.addClass("slick-disabled");
+			nextArrow.addClass("slick-disabled");
 		}
 	});
 });
@@ -75,12 +73,11 @@ $(".videos-session-content").slick({
 	slidesToShow: 3,
 	slidesToScroll: 3,
 	swipe: false,
-	prevArrow: $('.videos-session .left-arrow'),
-	nextArrow: $('.videos-session .right-arrow'),
-
+	prevArrow: $(".videos-session .left-arrow"),
+	nextArrow: $(".videos-session .right-arrow"),
 });
 $(document).ready(function () {
-	$('.videos-session-content').on('init', function (event, slick) {
+	$(".videos-session-content").on("init", function (event, slick) {
 		// Get the previous and next arrow buttons
 		var prevArrow = $(slick.$prevArrow);
 		var nextArrow = $(slick.$nextArrow);
@@ -88,8 +85,8 @@ $(document).ready(function () {
 		// Check if there are no previous or next slides
 		if (slick.slideCount <= slick.options.slidesToShow) {
 			// If there are no previous or next slides
-			prevArrow.addClass('slick-disabled');
-			nextArrow.addClass('slick-disabled');
+			prevArrow.addClass("slick-disabled");
+			nextArrow.addClass("slick-disabled");
 		}
 	});
 });
@@ -100,12 +97,11 @@ $(".videos-game-content").slick({
 	slidesToShow: 3,
 	slidesToScroll: 3,
 	swipe: false,
-	prevArrow: $('.videos-game .left-arrow'),
-	nextArrow: $('.videos-game .right-arrow'),
-
+	prevArrow: $(".videos-game .left-arrow"),
+	nextArrow: $(".videos-game .right-arrow"),
 });
 $(document).ready(function () {
-	$('.videos-game-content').on('init', function (event, slick) {
+	$(".videos-game-content").on("init", function (event, slick) {
 		// Get the previous and next arrow buttons
 		var prevArrow = $(slick.$prevArrow);
 		var nextArrow = $(slick.$nextArrow);
@@ -113,8 +109,8 @@ $(document).ready(function () {
 		// Check if there are no previous or next slides
 		if (slick.slideCount <= slick.options.slidesToShow) {
 			// If there are no previous or next slides
-			prevArrow.addClass('slick-disabled');
-			nextArrow.addClass('slick-disabled');
+			prevArrow.addClass("slick-disabled");
+			nextArrow.addClass("slick-disabled");
 		}
 	});
 });
@@ -148,16 +144,28 @@ $(document).ready(() => {
 // sidebar toggle
 $(document).ready(() => {
 	$(".hamb-bars").click(() => {
-		if ($("main section,footer,.games-list,.games-search").css("opacity") == 1) {
-			$("main section,footer,.games-list,.games-search").animate({ opacity: "0.5" });
+		if (
+			$("main section,footer,.games-list,.games-search").css("opacity") == 1
+		) {
+			$("main section,footer,.games-list,.games-search").animate({
+				opacity: "0.5",
+			});
 		} else {
-			$("main section,footer,.games-list,.games-search").animate({ opacity: "1" });
+			$("main section,footer,.games-list,.games-search").animate({
+				opacity: "1",
+			});
 		}
 		$("#sidebar").toggle("slide", () => {
 			if ($("#sidebar").css("display") == "block") {
-				$("main section,footer,.games-list,.games-search").css("pointer-events", "none");
+				$("main section,footer,.games-list,.games-search").css(
+					"pointer-events",
+					"none"
+				);
 			} else {
-				$("main section,footer,.games-list,.games-search").css("pointer-events", "unset");
+				$("main section,footer,.games-list,.games-search").css(
+					"pointer-events",
+					"unset"
+				);
 			}
 		});
 		$(".hamb-bars div:first-child").animate({ opacity: "toggle" }, 300);
@@ -293,6 +301,6 @@ $(function () {
 		"Grand Theft Auto: The Trilogy – The Definitive Edition",
 	];
 	$(".games-search input").autocomplete({
-		source: availableTags
+		source: availableTags,
 	});
 });

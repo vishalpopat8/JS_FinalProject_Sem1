@@ -38,8 +38,6 @@ header {
     width: 100%;
 }
 
-
-
 .side-search form {
     min-width: 20rem;
     background: #111;
@@ -85,7 +83,7 @@ header {
     grid-auto-rows: max-content;
     margin-bottom: 2rem;
     padding-bottom: 4rem;
-    transition: opacity .4s ease-in;
+    transition: opacity 0.4s ease-in;
 }
 
 .side-content a {
@@ -93,7 +91,7 @@ header {
     text-decoration: none;
     min-width: max-content;
     text-decoration: none;
-    transition: color .3s ease;
+    transition: color 0.3s ease;
     width: 100%;
     font-size: 2rem;
     font-weight: 700;
@@ -199,12 +197,12 @@ nav div:first-child a:last-child {
     line-height: 1.6;
     padding: 1rem;
     position: relative;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 nav div:first-child a:first-child::before {
     align-self: center;
-    background: url(../Images/subscribe.svg) 100%/contain no-repeat;
+    background: url(../Images/subscribe.svg) 100% / contain no-repeat;
     content: "";
     flex-grow: 1;
     height: 1rem;
@@ -218,7 +216,7 @@ nav div:first-child a:first-child::before {
 
 nav div:first-child a:last-child::before {
     align-self: center;
-    background: url(../Images/subscribe.svg) 100%/contain no-repeat;
+    background: url(../Images/subscribe.svg) 100% / contain no-repeat;
     content: "";
     flex-grow: 1;
     height: 1rem;
@@ -394,7 +392,7 @@ main {
     display: block;
     left: -0.1rem;
     position: absolute;
-    transition: all .2s ease;
+    transition: all 0.2s ease;
     width: calc(100% + 0.2rem);
     z-index: -1;
 }
@@ -599,7 +597,6 @@ footer {
     font-size: medium;
 }
 
-
 .footer-section div:first-child,
 .footer-section div:last-child {
     width: 100%;
@@ -688,7 +685,7 @@ footer {
 
 .games-list a div {
     animation-play-state: running;
-    animation: globalFadeInUp .75s;
+    animation: globalFadeInUp 0.75s;
     --image-rounding-dynamic: 8px;
     --aspect-ratio: 64/79;
     background-position: 50%;
@@ -705,7 +702,7 @@ footer {
     content: "";
     display: block;
     height: 0;
-    padding-bottom: calc(100% / calc(64/79));
+    padding-bottom: calc(100% / calc(64 / 79));
 }
 
 .game1 {
@@ -914,7 +911,7 @@ footer {
     background-repeat: no-repeat;
     background-size: 100% auto;
     flex: 0 0 auto;
-    transition: opacity .3s;
+    transition: opacity 0.3s;
     width: calc(12px * 2.5);
     z-index: 5;
     background-image: url(../Images/leftarrow.svg);
@@ -926,14 +923,12 @@ footer {
     background-repeat: no-repeat;
     background-size: 100% auto;
     flex: 0 0 auto;
-    transition: opacity .3s;
+    transition: opacity 0.3s;
     width: calc(12px * 2.5);
     z-index: 5;
     background-image: url(../Images/rightarrow.svg);
     cursor: pointer;
 }
-
-
 
 .videos-reddead-content,
 .videos-gtaonline-content,
@@ -948,7 +943,7 @@ footer {
     margin-right: 4rem;
     display: grid !important;
     grid-auto-flow: column;
-    transition: transform .3s;
+    transition: transform 0.3s;
     position: relative;
 }
 
@@ -959,15 +954,13 @@ footer {
 .videos-reddead-content a,
 .videos-gtaonline-content a,
 .videos-session-content a,
-.videos-game-content a
-{
+.videos-game-content a {
     color: inherit;
     text-decoration: none;
     margin-right: 1.5rem;
 }
-.videos-game-content a img
-{
-    
+
+.videos-game-content a img {
     aspect-ratio: 64/79;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -981,14 +974,14 @@ footer {
 
 .reddead-img-content,
 .gtaonline-img-content,
-.session-img-content{
+.session-img-content {
     border-radius: 8px;
     background: #000;
     border: 1px solid #282828;
     display: flex;
     flex-flow: column;
     overflow: hidden;
-    transition: transform .2s ease;
+    transition: transform 0.2s ease;
     height: inherit;
 }
 
@@ -1029,7 +1022,7 @@ footer {
 
 .videos-reddead-content a div:first-child h5,
 .videos-gtaonline-content a div:first-child h5,
-.videos-session-content a div:first-child h5{
+.videos-session-content a div:first-child h5 {
     line-height: 1.3;
     font-size: 1.3rem;
     font-weight: 400;
