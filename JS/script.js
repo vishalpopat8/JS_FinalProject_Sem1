@@ -208,24 +208,24 @@ $(document).ready(() => {
 	});
 
 	//This function will fire every time the user mouses off of the image. It resets the translation back to 0.
-	$(".games-list a div").mouseout(function () {
+	$(".games-list a div,.featured-games-img").mouseout(function () {
 		$(this).css("transform", "translate(0px,0px)");
 	});
 });
 
 // newswire image hover effect
 $(document).ready(() => {
-	$(".newswire-img").css({
+	$(".newswire-img,.reddead-img-content,.gtaonline-img-content,.session-img-content").css({
 		display: "inline-block",
 		overflow: "hidden",
 	});
 
-	$(".newswire-img img").css({
+	$(".newswire-img img, .reddead-img-content img,.gtaonline-img-content img,.session-img-content img").css({
 		display: "block",
 		transition: "transform .5s",
 	});
 
-	$(".newswire-img img").hover(
+	$(".newswire-img img, .reddead-img-content img,.gtaonline-img-content img,.session-img-content img").hover(
 		function () {
 			$(this).css({
 				transform: "scale(1.03)",
@@ -302,5 +302,15 @@ $(function () {
 	];
 	$(".games-search input").autocomplete({
 		source: availableTags,
+	});
+});
+
+// tooltip widget for games on videos page
+$(function () {
+	$(".videos-game-content").tooltip({
+		track: true,
+		classes: {
+			"ui-tooltip": "highlight"
+		}
 	});
 });
