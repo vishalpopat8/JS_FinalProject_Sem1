@@ -231,7 +231,7 @@ nav div:first-child a:last-child::before {
 }
 
 nav div:first-child a:hover {
-    background-color: hsla(0, 0%, 100%, .15);
+    background-color: #262626;
 }
 
 main {
@@ -370,8 +370,6 @@ main {
 .newswire-content h5 {
     font-size: 1.6rem !important;
 }
-
-
 
 .viewmore {
     background: transparent;
@@ -632,6 +630,44 @@ footer {
     font-size: 1.3rem;
     position: absolute;
     left: 40px;
+}
+
+.games-search {
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    position: relative;
+}
+
+.games-search input {
+    background-color: #272727;
+    border: none;
+    color: #fff;
+    outline: none;
+    padding: 1rem;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    border-radius: 5px;
+    background-image: url(../Images/search.svg);
+    background-origin: content-box;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.ui-autocomplete {
+    background-color: #121212 !important;
+    color: white !important;
+    border: 1px solid #2d2d2d !important;
+    height: 50vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ui-state-active {
+    border: none !important;
+    background-color: #262626 !important;
 }
 
 .games-list {

@@ -131,3 +131,67 @@ $(document).ready(() => {
 		}
 	);
 });
+
+
+$( function() {
+    var availableTags = [
+      "Grand Theft Auto: Mission Pack #1 - London 1969",
+      "Grand Theft Auto: Mission Pack #2 - London 1961",
+      "Monster Truck Madness 64",
+      "Grand Theft Auto 2",
+      "Earthworm Jim 3D",
+      "Thrasher: Skate and Destroy",
+      "Evel Knievel",
+      "Grand Theft Auto",
+      "Wild Metal",
+      "Austin Powers: Oh, Behave!",
+      "Austin Powers: Welcome to My Underground Lair!",
+      "Midnight Club: Street Racing",
+      "Smuggler's Run",
+      "Surfing H3O",
+      "Oni",
+      "Grand Theft Auto III",
+      "Smuggler's Run 2: Hostile Territory",
+      "Max Payne",
+      "State of Emergency",
+      "The Italian Job",
+      "Smuggler's Run: Warzones",
+      "Grand Theft Auto: Vice City",
+	  "Midnight Club II",
+	  "Max Payne 2: The Fall of Max Payne",
+	  "Manhunt",
+	  "Red Dead Revolver",
+		"Grand Theft Auto Advance",
+		"Grand Theft Auto: San Andreas",
+		"Midnight Club 3: DUB Edition",
+		"The Warriors",
+		"Grand Theft Auto: Liberty City Stories",
+		"Midnight Club 3: DUB Edition Remix",
+		"Rockstar Games Presents Table Tennis",
+		"Bully",
+		"Grand Theft Auto: Vice City Stories",
+		"Manhunt 2",
+		"Bully: Scholarship Edition",
+		"Grand Theft Auto IV",
+		"Midnight Club: Los Angeles",
+		"Grand Theft Auto IV: The Lost and Damned",
+		"Grand Theft Auto: Chinatown Wars",
+		"Beaterator",
+		"Grand Theft Auto: The Ballad of Gay Tony",
+		"Red Dead Redemption",
+		"Red Dead Redemption: Undead Nightmare",
+		"L.A. Noire",
+		"Max Payne 3",
+		"Grand Theft Auto: iFruit",
+		"Grand Theft Auto V",
+		"Grand Theft Auto Online",
+		"Bully: Anniversary Edition",
+		"L.A. Noire: The VR Case Files",
+		"Red Dead Redemption 2",
+		"Red Dead Online",
+		"Grand Theft Auto: The Trilogy – The Definitive Edition",
+    ];
+    $( ".games-search input" ).autocomplete({
+      source: availableTags
+    });
+  } );
