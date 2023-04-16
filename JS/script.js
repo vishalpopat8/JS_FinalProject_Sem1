@@ -84,10 +84,9 @@ $(document).ready(() => {
 				$("main section,footer,.games-list,.games-search").css("pointer-events", "unset");
 			}
 		});
-
 		$(".hamb-bars div:first-child").animate({ opacity: "toggle" }, 300);
 		$(".hamb-bars div:last-child").animate({ opacity: "toggle" }, 300);
-	});	
+	});
 });
 
 // current page link css
