@@ -42,7 +42,8 @@ $(document).ready(function () {
 		}
 	});
 });
-// slider plugin videos page for red dead
+
+// slider plugin videos page for gta online
 $(".videos-gtaonline-content").slick({
 	arrows: true,
 	infinite: false,
@@ -55,6 +56,56 @@ $(".videos-gtaonline-content").slick({
 });
 $(document).ready(function () {
 	$('.videos-gtaonline-content').on('init', function (event, slick) {
+		// Get the previous and next arrow buttons
+		var prevArrow = $(slick.$prevArrow);
+		var nextArrow = $(slick.$nextArrow);
+
+		// Check if there are no previous or next slides
+		if (slick.slideCount <= slick.options.slidesToShow) {
+			// If there are no previous or next slides
+			prevArrow.addClass('slick-disabled');
+			nextArrow.addClass('slick-disabled');
+		}
+	});
+});
+// slider plugin videos page for gta online sessions
+$(".videos-session-content").slick({
+	arrows: true,
+	infinite: false,
+	slidesToShow: 3,
+	slidesToScroll: 3,
+	swipe: false,
+	prevArrow: $('.videos-session .left-arrow'),
+	nextArrow: $('.videos-session .right-arrow'),
+
+});
+$(document).ready(function () {
+	$('.videos-session-content').on('init', function (event, slick) {
+		// Get the previous and next arrow buttons
+		var prevArrow = $(slick.$prevArrow);
+		var nextArrow = $(slick.$nextArrow);
+
+		// Check if there are no previous or next slides
+		if (slick.slideCount <= slick.options.slidesToShow) {
+			// If there are no previous or next slides
+			prevArrow.addClass('slick-disabled');
+			nextArrow.addClass('slick-disabled');
+		}
+	});
+});
+// slider plugin videos page for games
+$(".videos-game-content").slick({
+	arrows: true,
+	infinite: false,
+	slidesToShow: 3,
+	slidesToScroll: 3,
+	swipe: false,
+	prevArrow: $('.videos-game .left-arrow'),
+	nextArrow: $('.videos-game .right-arrow'),
+
+});
+$(document).ready(function () {
+	$('.videos-game-content').on('init', function (event, slick) {
 		// Get the previous and next arrow buttons
 		var prevArrow = $(slick.$prevArrow);
 		var nextArrow = $(slick.$nextArrow);
