@@ -17,15 +17,15 @@ $(document).ready(() => {
 	});
 });
 
-// slider plugin home page
+// slider plugin videos page for red dead
 $(".videos-reddead-content").slick({
 	arrows: true,
 	infinite: false,
 	slidesToShow: 3,
 	slidesToScroll: 3,
 	swipe: false,
-	prevArrow: $('.left-arrow'),
-	nextArrow: $('.right-arrow'),
+	prevArrow: $('.videos-reddead .left-arrow'),
+	nextArrow: $('.videos-reddead .right-arrow'),
 
 });
 $(document).ready(function () {
@@ -42,8 +42,33 @@ $(document).ready(function () {
 		}
 	});
 });
+// slider plugin videos page for red dead
+$(".videos-gtaonline-content").slick({
+	arrows: true,
+	infinite: false,
+	slidesToShow: 3,
+	slidesToScroll: 3,
+	swipe: false,
+	prevArrow: $('.videos-gtaonline .left-arrow'),
+	nextArrow: $('.videos-gtaonline .right-arrow'),
 
-// slider plugin videos page
+});
+$(document).ready(function () {
+	$('.videos-gtaonline-content').on('init', function (event, slick) {
+		// Get the previous and next arrow buttons
+		var prevArrow = $(slick.$prevArrow);
+		var nextArrow = $(slick.$nextArrow);
+
+		// Check if there are no previous or next slides
+		if (slick.slideCount <= slick.options.slidesToShow) {
+			// If there are no previous or next slides
+			prevArrow.addClass('slick-disabled');
+			nextArrow.addClass('slick-disabled');
+		}
+	});
+});
+
+// slider plugin home and videos page
 $(".main-carousel").slick({
 	arrows: false,
 	dots: true,
@@ -157,7 +182,7 @@ $(document).ready(() => {
 	);
 });
 
-
+// games autocomplete
 $(function () {
 	var availableTags = [
 		"Grand Theft Auto: Mission Pack #1 - London 1969",
