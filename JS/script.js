@@ -241,7 +241,7 @@ $(document).ready(() => {
 	);
 });
 
-// games autocomplete
+// games autocomplete widget
 $(function () {
 	var availableTags = [
 		"Grand Theft Auto: Mission Pack #1 - London 1969",
