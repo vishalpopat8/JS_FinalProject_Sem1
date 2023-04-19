@@ -145,7 +145,9 @@ $(document).ready(() => {
 $(document).ready(() => {
 	$(".hamb-bars").click(() => {
 		if (
-			$("main section,footer,.games-list,.games-search,.downloads").css("opacity") == 1
+			$("main section,footer,.games-list,.games-search,.downloads").css(
+				"opacity"
+			) == 1
 		) {
 			$("main section,footer,.games-list,.games-search,.downloads").animate({
 				opacity: "0.5",

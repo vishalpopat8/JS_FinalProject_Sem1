@@ -1294,6 +1294,7 @@ footer {
     background-size: cover;
     position: relative;
 }
+
 .d-mobile-games-img-1 {
     background-image: url(../Images/mobile_download1.png);
     aspect-ratio: 64/79;
@@ -1303,6 +1304,7 @@ footer {
     background-size: cover;
     position: relative;
 }
+
 .d-mobile-games-img-2 {
     background-image: url(../Images/mobile_download2.png);
     aspect-ratio: 64/79;
@@ -1312,6 +1314,7 @@ footer {
     background-size: cover;
     position: relative;
 }
+
 .d-mobile-games-img-3 {
     background-image: url(../Images/mobile_download3.png);
     aspect-ratio: 64/79;
@@ -1321,6 +1324,7 @@ footer {
     background-size: cover;
     position: relative;
 }
+
 .d-mobile-games-img-4 {
     background-image: url(../Images/mobile_download4.png);
     aspect-ratio: 64/79;
@@ -1440,24 +1444,27 @@ footer {
     color: white;
 }
 
-.miscellaneous-games h2{
+.miscellaneous-games h2 {
     line-height: 1.3;
     font-size: 2rem;
     margin: 0 0 1.5rem;
     color: inherit;
     letter-spacing: -0.025em;
 }
-.d-miscellaneous-games{
-    grid-template-columns: repeat(4,minmax(0,1fr));
+
+.d-miscellaneous-games {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     grid-gap: 1.5rem;
     grid-row-gap: 4rem;
     display: grid;
 }
-.d-miscellaneous-games a{
+
+.d-miscellaneous-games a {
     color: inherit;
     text-decoration: none;
 }
-.d-miscellaneous-games-content{
+
+.d-miscellaneous-games-content {
     grid-gap: 1rem;
     background: transparent;
     border: none;
@@ -1467,7 +1474,8 @@ footer {
     overflow: unset;
     transition: transform .2s ease;
 }
-.d-miscellaneous-games-img-1{
+
+.d-miscellaneous-games-img-1 {
     border-radius: 8px;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -1475,13 +1483,15 @@ footer {
     position: relative;
     background-image: url(../Images/miscellaneous_download1.jpg);
 }
-.d-miscellaneous-games-img-1::before{
+
+.d-miscellaneous-games-img-1::before {
     content: "";
     display: block;
     height: 0;
     padding-bottom: 100%;
 }
-.d-miscellaneous-games-img-2{
+
+.d-miscellaneous-games-img-2 {
     border-radius: 8px;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -1489,13 +1499,15 @@ footer {
     position: relative;
     background-image: url(../Images/miscellaneous_download2.jpg);
 }
-.d-miscellaneous-games-img-2::before{
+
+.d-miscellaneous-games-img-2::before {
     content: "";
     display: block;
     height: 0;
     padding-bottom: 100%;
 }
-.d-miscellaneous-games-img-3{
+
+.d-miscellaneous-games-img-3 {
     border-radius: 8px;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -1503,13 +1515,15 @@ footer {
     position: relative;
     background-image: url(../Images/miscellaneous_download3.jpg);
 }
-.d-miscellaneous-games-img-3::before{
+
+.d-miscellaneous-games-img-3::before {
     content: "";
     display: block;
     height: 0;
     padding-bottom: 100%;
 }
-.d-miscellaneous-games-img-4{
+
+.d-miscellaneous-games-img-4 {
     border-radius: 8px;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -1517,14 +1531,15 @@ footer {
     position: relative;
     background-image: url(../Images/miscellaneous_download4.jpg);
 }
-.d-miscellaneous-games-img-4::before{
+
+.d-miscellaneous-games-img-4::before {
     content: "";
     display: block;
     height: 0;
     padding-bottom: 100%;
 }
 
-.d-miscellaneous-games-img-5{
+.d-miscellaneous-games-img-5 {
     border-radius: 8px;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -1532,13 +1547,15 @@ footer {
     position: relative;
     background-image: url(../Images/miscellaneous_download5.jpg);
 }
-.d-miscellaneous-games-img-5::before{
+
+.d-miscellaneous-games-img-5::before {
     content: "";
     display: block;
     height: 0;
     padding-bottom: 100%;
 }
-.d-miscellaneous-games-img-6{
+
+.d-miscellaneous-games-img-6 {
     border-radius: 8px;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -1546,13 +1563,15 @@ footer {
     position: relative;
     background-image: url(../Images/miscellaneous_download6.jpg);
 }
-.d-miscellaneous-games-img-6::before{
+
+.d-miscellaneous-games-img-6::before {
     content: "";
     display: block;
     height: 0;
     padding-bottom: 100%;
 }
-.d-miscellaneous-games-img-7{
+
+.d-miscellaneous-games-img-7 {
     border-radius: 8px;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -1560,7 +1579,8 @@ footer {
     position: relative;
     background-image: url(../Images/miscellaneous_download7.jpg);
 }
-.d-miscellaneous-games-img-7::before{
+
+.d-miscellaneous-games-img-7::before {
     content: "";
     display: block;
     height: 0;
