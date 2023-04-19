@@ -127,16 +127,16 @@ $(".main-carousel").slick({
 
 // button hover
 $(document).ready(() => {
-	$(".cell-content button").hover(
+	$(".cell-content button,.download-now").hover(
 		() => {
-			$(".cell-content button").css("background", "#fcaf17");
-			$(".cell-content button").css("border-color", "#fcaf17");
-			$(".cell-content button").css("color", "#161616");
+			$(".cell-content button,.download-now").css("background", "#fcaf17");
+			$(".cell-content button,.download-now").css("border-color", "#fcaf17");
+			$(".cell-content button,.download-now").css("color", "#161616");
 		},
 		() => {
-			$(".cell-content button").css("background", "transparent");
-			$(".cell-content button").css("border-color", "white");
-			$(".cell-content button").css("color", "white");
+			$(".cell-content button,.download-now").css("background", "transparent");
+			$(".cell-content button,.download-now").css("border-color", "white");
+			$(".cell-content button,.download-now").css("color", "white");
 		}
 	);
 });
@@ -145,24 +145,24 @@ $(document).ready(() => {
 $(document).ready(() => {
 	$(".hamb-bars").click(() => {
 		if (
-			$("main section,footer,.games-list,.games-search").css("opacity") == 1
+			$("main section,footer,.games-list,.games-search,.downloads").css("opacity") == 1
 		) {
-			$("main section,footer,.games-list,.games-search").animate({
+			$("main section,footer,.games-list,.games-search,.downloads").animate({
 				opacity: "0.5",
 			});
 		} else {
-			$("main section,footer,.games-list,.games-search").animate({
+			$("main section,footer,.games-list,.games-search,.downloads").animate({
 				opacity: "1",
 			});
 		}
 		$("#sidebar").toggle("slide", () => {
 			if ($("#sidebar").css("display") == "block") {
-				$("main section,footer,.games-list,.games-search").css(
+				$("main section,footer,.games-list,.games-search,.downloads").css(
 					"pointer-events",
 					"none"
 				);
 			} else {
-				$("main section,footer,.games-list,.games-search").css(
+				$("main section,footer,.games-list,.games-search,.downloads").css(
 					"pointer-events",
 					"unset"
 				);
@@ -215,17 +215,23 @@ $(document).ready(() => {
 
 // newswire image hover effect
 $(document).ready(() => {
-	$(".newswire-img,.reddead-img-content,.gtaonline-img-content,.session-img-content").css({
+	$(
+		".newswire-img,.reddead-img-content,.gtaonline-img-content,.session-img-content"
+	).css({
 		display: "inline-block",
 		overflow: "hidden",
 	});
 
-	$(".newswire-img img, .reddead-img-content img,.gtaonline-img-content img,.session-img-content img").css({
+	$(
+		".newswire-img img, .reddead-img-content img,.gtaonline-img-content img,.session-img-content img"
+	).css({
 		display: "block",
 		transition: "transform .5s",
 	});
 
-	$(".newswire-img img, .reddead-img-content img,.gtaonline-img-content img,.session-img-content img").hover(
+	$(
+		".newswire-img img, .reddead-img-content img,.gtaonline-img-content img,.session-img-content img"
+	).hover(
 		function () {
 			$(this).css({
 				transform: "scale(1.03)",
@@ -310,7 +316,91 @@ $(function () {
 	$(".videos-game-content").tooltip({
 		track: true,
 		classes: {
-			"ui-tooltip": "highlight"
-		}
+			"ui-tooltip": "highlight",
+		},
+	});
+});
+
+// download page dropdown
+$(document).ready(() => {
+	$(".d-pc-mac-games-content-1").click(() => {
+		$(".d-pc-mac-games-content-1 .d-pc-mac-games-content-dropdown").toggleClass(
+			"myUlStyle",
+			1300
+		);
+		$(".d-pc-mac-games-content-1 .d-pc-mac-games-select-arrow").toggleClass(
+			"rotate-180",
+			1300
+		);
+	});
+	$(".d-pc-mac-games-content-2").click(() => {
+		$(".d-pc-mac-games-content-2 .d-pc-mac-games-content-dropdown").toggleClass(
+			"myUlStyle",
+			1300
+		);
+		$(".d-pc-mac-games-content-2 .d-pc-mac-games-select-arrow").toggleClass(
+			"rotate-180",
+			1300
+		);
+	});
+	$(".d-pc-mac-games-content-3").click(() => {
+		$(".d-pc-mac-games-content-3 .d-pc-mac-games-content-dropdown").toggleClass(
+			"myUlStyle",
+			1300
+		);
+		$(".d-pc-mac-games-content-3 .d-pc-mac-games-select-arrow").toggleClass(
+			"rotate-180",
+			1300
+		);
+	});
+	$(".d-pc-mac-games-content-4").click(() => {
+		$(".d-pc-mac-games-content-4 .d-pc-mac-games-content-dropdown").toggleClass(
+			"myUlStyle",
+			1300
+		);
+		$(".d-pc-mac-games-content-4 .d-pc-mac-games-select-arrow").toggleClass(
+			"rotate-180",
+			1300
+		);
+	});
+	$(".d-mobile-games-content-1").click(() => {
+		$(".d-mobile-games-content-1 .d-mobile-games-content-dropdown").toggleClass(
+			"myUlStyle",
+			1300
+		);
+		$(".d-mobile-games-content-1 .d-mobile-games-select-arrow").toggleClass(
+			"rotate-180",
+			1300
+		);
+	});
+	$(".d-mobile-games-content-2").click(() => {
+		$(".d-mobile-games-content-2 .d-mobile-games-content-dropdown").toggleClass(
+			"myUlStyle",
+			1300
+		);
+		$(".d-mobile-games-content-2 .d-mobile-games-select-arrow").toggleClass(
+			"rotate-180",
+			1300
+		);
+	});
+	$(".d-mobile-games-content-3").click(() => {
+		$(".d-mobile-games-content-3 .d-mobile-games-content-dropdown").toggleClass(
+			"myUlStyle",
+			1300
+		);
+		$(".d-mobile-games-content-3 .d-mobile-games-select-arrow").toggleClass(
+			"rotate-180",
+			1300
+		);
+	});
+	$(".d-mobile-games-content-4").click(() => {
+		$(".d-mobile-games-content-4 .d-mobile-games-content-dropdown").toggleClass(
+			"myUlStyle",
+			1300
+		);
+		$(".d-mobile-games-content-4 .d-mobile-games-select-arrow").toggleClass(
+			"rotate-180",
+			1300
+		);
 	});
 });

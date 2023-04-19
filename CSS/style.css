@@ -1035,3 +1035,534 @@ footer {
     border: 1px solid #000 !important;
     border-radius: 5px;
 }
+
+/* downloads page */
+
+.downloads {
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 4rem;
+    color: #e8e8e8;
+    width: 100%;
+}
+
+.download-first {
+    grid-gap: 8rem;
+    display: grid;
+    grid-template-columns: repeat(var(--grid-num-columns, 1), minmax(0, 1fr));
+}
+
+.head-download-1 {
+    grid-template-columns: 50% 1fr;
+    padding: 4rem;
+    background: #000;
+    border-radius: 16px;
+    margin-bottom: 8rem;
+    overflow: hidden;
+    padding: 4rem;
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
+    display: grid;
+}
+
+.head-download h2 {
+    line-height: 1.3;
+    font-size: 2rem;
+    margin: 0 0 1.5rem;
+}
+
+.head-download-2 {
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+.head-download-2 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.d-featured-div {
+    grid-gap: 1rem;
+    background: transparent;
+    border: none;
+    border-radius: var(0, 0);
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    overflow: unset;
+    transition: transform 0.2s ease;
+}
+
+.d-featured-div h5 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: inherit;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.d-header-img {
+    aspect-ratio: 1/1;
+    background-image: url(../Images/header_download.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.head-download-1 div:last-child {
+    grid-gap: 2rem;
+    align-items: flex-start;
+    display: grid;
+    flex-flow: column;
+}
+
+.d-header-content {
+    grid-gap: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(var(--grid-num-columns, 1), minmax(0, 1fr));
+}
+
+.d-header-content h2 {
+    line-height: 1.5;
+    color: inherit;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: -0.025rem;
+}
+
+.d-header-content p {
+    margin: 0;
+    font-size: 1.4rem;
+}
+
+.head-download-1 div:last-child button {
+    align-self: flex-start;
+    color: inherit;
+    text-decoration: none;
+    align-self: center;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    width: fit-content;
+}
+
+.d-featured-div-img-1 {
+    background-image: url(../Images/d_featured_downloads1.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    position: relative;
+}
+
+.d-featured-div-img-1::before {
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: calc(100% / calc(780 / 373));
+}
+
+.d-featured-div-img-2 {
+    background-image: url(../Images/d_featured_downloads2.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    position: relative;
+}
+
+.d-featured-div-img-2::before {
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: calc(100% / calc(780 / 373));
+}
+
+.d-featured-div-img-3 {
+    background-image: url(../Images/d_featured_downloads3.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    position: relative;
+}
+
+.d-featured-div-img-3::before {
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: calc(100% / calc(780 / 373));
+}
+
+.d-featured-div-img-4 {
+    background-image: url(../Images/d_featured_downloads4.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    position: relative;
+}
+
+.d-featured-div-img-4::before {
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: calc(100% / calc(780 / 373));
+}
+
+.pc-mac-games,
+.mobile-games {
+    display: grid;
+    grid-template-columns: repeat(var(--grid-num-columns, 1), minmax(0, 1fr));
+}
+
+.pc-mac-games h2,
+.mobile-games h2 {
+    line-height: 1.3;
+    font-size: 2rem;
+    margin: 0 0 1.5rem;
+}
+
+.pc-mac-games-1,
+.mobile-games-1 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-gap: 1.5rem;
+    grid-row-gap: 4rem;
+    display: grid;
+}
+
+.d-pc-mac-games,
+.d-mobile-games {
+    grid-gap: 1rem;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    overflow: unset;
+    transition: transform 0.2s ease;
+}
+
+.d-pc-mac-games-img-1 {
+    background-image: url(../Images/pcmac_download1.jpg);
+    aspect-ratio: 64/79;
+    border-radius: 8px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.d-pc-mac-games-img-2 {
+    background-image: url(../Images/pcmac_download2.jpg);
+    aspect-ratio: 64/79;
+    border-radius: 8px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.d-pc-mac-games-img-3 {
+    background-image: url(../Images/pcmac_download3.jpg);
+    aspect-ratio: 64/79;
+    border-radius: 8px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.d-pc-mac-games-img-4 {
+    background-image: url(../Images/pcmac_download4.jpg);
+    aspect-ratio: 64/79;
+    border-radius: 8px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.d-mobile-games-img-1 {
+    background-image: url(../Images/mobile_download1.png);
+    aspect-ratio: 64/79;
+    border-radius: 8px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.d-mobile-games-img-2 {
+    background-image: url(../Images/mobile_download2.png);
+    aspect-ratio: 64/79;
+    border-radius: 8px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.d-mobile-games-img-3 {
+    background-image: url(../Images/mobile_download3.png);
+    aspect-ratio: 64/79;
+    border-radius: 8px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.d-mobile-games-img-4 {
+    background-image: url(../Images/mobile_download4.png);
+    aspect-ratio: 64/79;
+    border-radius: 8px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.d-pc-mac-games-content-1,
+.d-pc-mac-games-content-2,
+.d-pc-mac-games-content-3,
+.d-pc-mac-games-content-4,
+.d-mobile-games-content-1,
+.d-mobile-games-content-2,
+.d-mobile-games-content-3,
+.d-mobile-games-content-4 {
+    cursor: pointer;
+    position: relative;
+}
+
+.d-pc-mac-games-select,
+.d-mobile-games-select {
+    align-items: center;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.65);
+    display: flex;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.d-pc-mac-games-select-arrow,
+.d-mobile-games-select-arrow {
+    background-size: cover;
+    right: 1rem;
+    transition: 0.3s ease;
+    width: 13px;
+}
+
+.d-pc-mac-games-select-arrow::after,
+.d-mobile-games-select-arrow::after {
+    background-image: url(../Images/droparrow.svg);
+    content: "";
+    display: inline-block;
+    right: 0;
+    top: 0;
+    transition: transform 0.3s;
+    width: 24px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    position: absolute;
+    transform: rotate(0deg);
+}
+
+.d-pc-mac-games-content-dropdown,
+.d-mobile-games-content-dropdown {
+    background-color: #0b0b0b;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 0 0 transparent;
+    list-style-type: none;
+    margin: 0;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    padding-left: 0 !important;
+    position: absolute;
+    transition: all 0.3s ease-in-out, opacity 0.1s ease-out;
+    width: 100%;
+    z-index: 151;
+    /* box-shadow: 0 10px 30px rgba(0,0,0,.5);
+    max-height: 280px;
+    opacity: 1; */
+}
+
+.d-pc-mac-games-content-dropdown li,
+.d-mobile-games-content-dropdown li {
+    list-style: none;
+}
+
+.d-pc-mac-games-content-dropdown li a,
+.d-mobile-games-content-dropdown li a {
+    display: block;
+    padding: 1rem;
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.d-pc-mac-games-content-dropdown li a:hover,
+.d-mobile-games-content-dropdown li a:hover {
+    background: #fcaf17;
+    color: #161616;
+}
+
+.myUlStyle {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    max-height: 280px;
+    opacity: 1;
+}
+
+.rotate-180::after {
+    transform: rotate(180deg);
+}
+
+.pc-mac-games-2,
+.mobile-games-2 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.pc-mac-games-2 a,
+.mobile-games-2 a {
+    color: white;
+}
+
+.miscellaneous-games h2{
+    line-height: 1.3;
+    font-size: 2rem;
+    margin: 0 0 1.5rem;
+    color: inherit;
+    letter-spacing: -0.025em;
+}
+.d-miscellaneous-games{
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    grid-gap: 1.5rem;
+    grid-row-gap: 4rem;
+    display: grid;
+}
+.d-miscellaneous-games a{
+    color: inherit;
+    text-decoration: none;
+}
+.d-miscellaneous-games-content{
+    grid-gap: 1rem;
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    overflow: unset;
+    transition: transform .2s ease;
+}
+.d-miscellaneous-games-img-1{
+    border-radius: 8px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url(../Images/miscellaneous_download1.jpg);
+}
+.d-miscellaneous-games-img-1::before{
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: 100%;
+}
+.d-miscellaneous-games-img-2{
+    border-radius: 8px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url(../Images/miscellaneous_download2.jpg);
+}
+.d-miscellaneous-games-img-2::before{
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: 100%;
+}
+.d-miscellaneous-games-img-3{
+    border-radius: 8px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url(../Images/miscellaneous_download3.jpg);
+}
+.d-miscellaneous-games-img-3::before{
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: 100%;
+}
+.d-miscellaneous-games-img-4{
+    border-radius: 8px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url(../Images/miscellaneous_download4.jpg);
+}
+.d-miscellaneous-games-img-4::before{
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: 100%;
+}
+
+.d-miscellaneous-games-img-5{
+    border-radius: 8px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url(../Images/miscellaneous_download5.jpg);
+}
+.d-miscellaneous-games-img-5::before{
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: 100%;
+}
+.d-miscellaneous-games-img-6{
+    border-radius: 8px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url(../Images/miscellaneous_download6.jpg);
+}
+.d-miscellaneous-games-img-6::before{
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: 100%;
+}
+.d-miscellaneous-games-img-7{
+    border-radius: 8px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url(../Images/miscellaneous_download7.jpg);
+}
+.d-miscellaneous-games-img-7::before{
+    content: "";
+    display: block;
+    height: 0;
+    padding-bottom: 100%;
+}
