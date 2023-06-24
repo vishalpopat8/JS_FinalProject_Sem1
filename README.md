@@ -27,10 +27,15 @@ This is a clone website for Rockstar Games, a renowned video game publisher and 
 The Rockstar Games Clone Website is built using the following technologies:
 
 **HTML/CSS**: Used to create the structure and style of the web pages.
+
 **Bootstrap**: A front-end framework for responsive web design.
+
 **JavaScript**: Provides interactivity and dynamic functionality.
+
 **JQuery**: JavaScript library for DOM manipulation.
+
 **JQuery UI**: JavaScript library for enhanced UI components and interactions with animations.
+
 **Slick Slider Plugin**: Feature-rich responsive carousel and slider plugin.
 
 # Installation
