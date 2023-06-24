@@ -2,7 +2,7 @@
 Rockstar Games Clone Website
 This is a clone website for Rockstar Games, a renowned video game publisher and developer. This project aims to create a website that emulates the style and functionality of the official Rockstar Games website, providing a similar user experience for fans and enthusiasts.
 
-#Features
+# Features
 Home Page: The website includes a visually appealing and engaging home page that showcases featured games, the latest news, and updates from Rockstar Games.
 
 Slider Functionality: The Website includes a slider for Newswire and Games Content on Home Page and Videos Page.
@@ -23,7 +23,7 @@ Downloads Page: This page is designed to provide a centralized location for user
 
 Dropdown Functionality: A dropdown on the downloads page allows users to download their game in their required operating system.
 
-#Technologies Used
+# Technologies Used
 The Rockstar Games Clone Website is built using the following technologies:
 
 HTML/CSS: Used to create the structure and style of the web pages.
@@ -33,10 +33,10 @@ JQuery: JavaScript library for DOM manipulation.
 JQuery UI: JavaScript library for enhanced UI components and interactions with animations.
 Slick Slider Plugin: Feature-rich responsive carousel and slider plugin.
 
-#Installation
+# Installation
 To run the Rockstar Games Clone Website locally, follow these steps:
 
 Download Zip Folder for this project and extract it, and open index.html.
 
 #Acknowledgments
-We would like to express our gratitude to Rockstar Games for their incredible game titles, which inspired this clone website.
+We thank Rockstar Games for their incredible game titles, which inspired this clone website.
