@@ -1,4 +1,4 @@
-# JS_FinalProject_Sem1
+# Rockstar Games Clone
 Rockstar Games Clone Website
 This is a clone website for Rockstar Games, a renowned video game publisher and developer. This project aims to create a website that emulates the style and functionality of the official Rockstar Games website, providing a similar user experience for fans and enthusiasts.
 
