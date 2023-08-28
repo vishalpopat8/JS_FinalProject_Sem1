@@ -348,7 +348,6 @@ main {
         width: 100% !important;
     }
 
-    main h2:not(:first-child),
     .download-first h2 {
         padding-left: 4rem !important;
     }
@@ -466,7 +465,7 @@ main {
         margin-right: unset !important;
     }
 
-    section {
+    .videos section {
         padding: 1.5rem !important;
     }
 
