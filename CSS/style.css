@@ -295,9 +295,204 @@ main {
 }
 
 .cell-title h2 {
-    font-size: 2.5rem;
+    font-size: calc(2rem + 1vw);
     line-height: 1.1;
     letter-spacing: -0.025em;
+}
+
+/* Adjust font size for smaller screens */
+@media (max-width: 882px) {
+    .cell-title h2 {
+        font-size: calc(1.5rem + 1vw);
+    }
+
+    .carousel-cell {
+        grid-template-columns: 1fr;
+    }
+
+    .newswire {
+        margin-top: 0 !important;
+    }
+
+    .newswire-tile {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+
+    .featured-games {
+        grid-template-columns: repeat(2, 1fr) !important;
+        padding: 1rem;
+        grid-gap: 3rem !important;
+    }
+
+    .footer-privacy {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 30%;
+    }
+
+    .games-list {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .head-download-1 {
+        grid-template-columns: 1fr !important;
+    }
+
+    .downloads {
+        padding: 0 !important;
+    }
+
+    .head-download-1 div:last-child button {
+        width: 100% !important;
+    }
+
+    main h2:not(:first-child),
+    .download-first h2 {
+        padding-left: 4rem !important;
+    }
+
+    .head-download-2,
+    .pc-mac-games-1,
+    .mobile-games-1,
+    .d-miscellaneous-games {
+        padding: 4rem;
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .head-download-1 h2 {
+        padding-left: 0 !important;
+    }
+}
+
+/* Adjust font size for even smaller screens */
+@media (max-width: 480px) {
+    .cell-title h2 {
+        font-size: calc(1rem + 1vw);
+    }
+
+    .slide-content {
+        padding: 2rem 2rem;
+    }
+
+    .cell-content button {
+        width: 100%;
+        font-size: medium;
+    }
+
+    .newswire-tile {
+        grid-template-columns: repeat(2, 1fr) !important;
+        padding: 1rem;
+    }
+
+    .newswire {
+        grid-gap: 4rem !important;
+    }
+
+    .featured-games {
+        grid-template-columns: repeat(2, 1fr) !important;
+        padding: 1rem;
+        grid-gap: 1.5rem !important;
+    }
+
+    section h2:first-child {
+        margin-left: 1rem;
+    }
+
+    .footer-contact {
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 3rem !important;
+    }
+
+    .footer-socials {
+        order: 1 !important;
+    }
+
+    .footer-section {
+        grid-template-columns: 1fr !important;
+        grid-auto-flow: unset !important;
+    }
+
+    .footer-section>* {
+        text-align: center !important;
+
+    }
+
+    .footer-section div:nth-child(2) {
+        position: unset !important;
+        transform: unset !important;
+        -webkit-transform: unset !important;
+        -moz-transform: unset !important;
+        -ms-transform: unset !important;
+        -o-transform: unset !important;
+    }
+
+    .header-nav {
+        padding: 12px 2rem;
+    }
+
+    nav {
+        width: 50%;
+    }
+
+    .side-content,
+    .side-search {
+        padding-left: 2rem;
+    }
+
+    .hamb {
+        display: none;
+    }
+
+    .games-list {
+        grid-template-columns: 1fr !important;
+    }
+
+    .games-list,
+    .games-search {
+        padding: 2rem !important;
+    }
+
+    .videos section h3,
+    .videos-reddead-content,
+    .videos-gtaonline-content,
+    .videos-session-content,
+    .videos-game-content {
+        margin-left: unset !important;
+        margin-right: unset !important;
+    }
+
+    section {
+        padding: 1.5rem !important;
+    }
+
+    .videos-sidebar {
+        padding: 0 !important;
+    }
+
+    .head-download-1 {
+        padding: 1.5rem !important;
+    }
+
+    .head-download-1 h2 {
+        padding-left: 0 !important;
+    }
+
+    .head-download-2,
+    .pc-mac-games-1,
+    .mobile-games-1,
+    .d-miscellaneous-games {
+        padding: 2rem;
+        grid-template-columns: 1fr !important;
+    }
+
+    main .head-download-1 + h2,.pc-mac-games h2,.mobile-games h2,.miscellaneous-games h2 {
+        padding-left: 2rem !important;
+    }
 }
 
 .slider-dot {
@@ -1136,7 +1331,7 @@ footer {
 
 .d-header-content p {
     margin: 0;
-    font-size: 1.4rem;
+    font-size: calc(1rem + 0.5vw);
 }
 
 .head-download-1 div:last-child button {
