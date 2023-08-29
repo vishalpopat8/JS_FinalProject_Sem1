@@ -1261,7 +1261,7 @@ footer {
 
 .head-download h2 {
     line-height: 1.3;
-    font-size: 2rem;
+    font-size: calc(1.5rem + 0.5vw);
     margin: 0 0 1.5rem;
 }
 
@@ -1322,7 +1322,7 @@ footer {
 .d-header-content h2 {
     line-height: 1.5;
     color: inherit;
-    font-size: 2rem;
+    font-size: calc(1.5rem + 0.5vw);
     font-weight: 700;
     text-transform: none;
     letter-spacing: -0.025rem;
@@ -1424,7 +1424,7 @@ footer {
 .pc-mac-games h2,
 .mobile-games h2 {
     line-height: 1.3;
-    font-size: 2rem;
+    font-size: calc(1.5rem + 0.5vw);
     margin: 0 0 1.5rem;
 }
 
@@ -1640,7 +1640,7 @@ footer {
 
 .miscellaneous-games h2 {
     line-height: 1.3;
-    font-size: 2rem;
+    font-size: calc(1.5rem + 0.5vw);
     margin: 0 0 1.5rem;
     color: inherit;
     letter-spacing: -0.025em;
