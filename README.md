@@ -46,5 +46,5 @@ To run the Rockstar Games Clone Website locally, follow these steps:
 
 Download Zip Folder for this project and extract it, and open index.html.
 
-#Acknowledgments
+# Acknowledgments
 We thank Rockstar Games for their incredible game titles, which inspired this clone website.
