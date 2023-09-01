@@ -18,9 +18,9 @@ Website Link:- https://vishalpopat8.github.io/Rockstar-Games-Clone/
 
 **Videos Page**: This page is designed to give users easy access to videos related to Rockstar Games and their titles.
 
-**3-tile Slider Functionality**: Videos Page contains a slider for Sliding three tiles. 
+**3-tile Slider Functionality**: The videos Page contains a slider for Sliding three tiles. 
 
-**Hover Functionality**: Videos Page contains the hover effect of every Game title.
+**Hover Functionality**: The videos page contains the hover effect of every Game title.
 
 **Downloads Page**: This page is designed to provide a centralized location for users to find and download game patches, updates, mods, wallpapers, and other digital assets.
 
@@ -40,11 +40,6 @@ The Rockstar Games Clone Website is built using the following technologies:
 **JQuery UI**: JavaScript library for enhanced UI components and interactions with animations.
 
 **Slick Slider Plugin**: Feature-rich responsive carousel and slider plugin.
-
-# Installation
-To run the Rockstar Games Clone Website locally, follow these steps:
-
-Download Zip Folder for this project and extract it, and open index.html.
 
 # Acknowledgments
 We thank Rockstar Games for their incredible game titles, which inspired this clone website.
