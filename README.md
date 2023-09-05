@@ -41,4 +41,4 @@ The Rockstar Games Clone Website is built using the following technologies:
 **Slick Slider Plugin**: Feature-rich responsive carousel and slider plugin.
 
 # Acknowledgments
-We thank Rockstar Games for their incredible game titles, which inspired this clone website.
+I thank Rockstar Games for their incredible game titles, which inspired this clone website.
