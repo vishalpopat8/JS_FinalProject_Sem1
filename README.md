@@ -7,17 +7,17 @@ Website Link:- https://vishalpopat8.github.io/Rockstar-Games-Clone/
 # Features
 **Home Page**: The website includes a visually appealing and engaging home page that showcases featured games, the latest news, and updates from Rockstar Games.
 
-**Slider Functionality**: The Website includes a slider for Newswire and Games Content on Home Page and Videos Page.
+**Slider Functionality**: The Website includes a slider for Newswire and Games Content on the Home and Videos Page.
 
 **Game Page**: A comprehensive Rockstar Games title with a Search Functionality catalogue.
 
-**Search Functionality**: Users can easily search for specific games using the search bar on Game Page, allowing them to find their favourite titles quickly.
+**Search Functionality**: Users can easily search for specific games using the search bar on the Game Page, allowing them to find their favourite titles quickly.
 
 **Newswire Page**: The website provides the latest news and updates related to Rockstar Games, including announcements, patches, and new releases.
 
 **Videos Page**: This page is designed to give users easy access to videos related to Rockstar Games and their titles.
 
-**3-tile Slider Functionality**: The videos Page contains a slider for Sliding three tiles. 
+**3-tile Slider Functionality**: The Videos Page contains a slider for Sliding three tiles. 
 
 **Hover Functionality**: The videos page contains the hover effect of every Game title.
 
