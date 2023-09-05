@@ -1,7 +1,7 @@
 # Rockstar Games Clone Website
 This is a clone website for Rockstar Games, a renowned video game publisher and developer. This project aims to create a website that emulates the style and functionality of the official Rockstar Games website, providing a similar user experience for fans and enthusiasts.
 
-# View Demo
+# View Website
 Website Link:- https://vishalpopat8.github.io/Rockstar-Games-Clone/
 
 # Features
